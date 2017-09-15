@@ -1,0 +1,10 @@
+# Copyright 2010 Brett Witherspoon <spoonb@cdspooner.com>
+# Distributed under the terms of the GNU General Public License v2
+
+require NetworkManager
+
+PLATFORMS="~amd64 ~x86"
+
+# TODO(compnerd) re-enable tests, requires glib and dbus-glib python bindings
+RESTRICT="test"
+
